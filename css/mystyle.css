@@ -1,0 +1,11 @@
+.portfolio-item {
+  opacity: 1;
+}
+.portfolio-item.hidden{
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.95);
+}
+.carousel-indicator.active{
+    transform: scale(1.25);
+}
